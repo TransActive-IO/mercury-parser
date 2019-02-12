@@ -241,7 +241,7 @@ var Errors = {
 };
 
 var REQUEST_HEADERS = cheerio.browser ? {} : {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
 }; // The number of milliseconds to attempt to fetch a resource before timing out.
 
 var FETCH_TIMEOUT = 10000; // Content types that we do not extract content from
